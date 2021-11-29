@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    
+    text-decoration: none;
+    
+}
+ul,li,ol{
+    list-style-type: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    line-height: .8;
+}
+.mr{
+    margin-right: 0 !important;
+}
+.clr{
+    clear: both;
+}
+.fullwrapper{
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* common css */
+
+/* navbar */
+.header{
+    background-color: #150035;
+
+}
+.logo{
+    width: 270px;
+    float: left;
+    text-align: center;
+}
+
+.menu{
+    width: 900px;
+    float: left;
+    padding-top: 50px;
+
+    text-align: left;
+}
+.menu ul li{
+   
+    display: inline-block;
+}
+.menu ul li a{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #ffff;
+    line-height: 100px;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+ }
+ .menu ul li a:hover{
+   color: #c716a5;
+   transition: all linear .5s;
+   -webkit-transition: all linear .5s;
+   -moz-transition: all linear .5s;
+   -ms-transition: all linear .5s;
+   -o-transition: all linear .5s;
+ }
+ .button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: #782ce1 ;
+    color: #fff; 
+   border-radius: 3px;
+  }
+  
+  .button1:hover {
+    background-color: #de24ba;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: #782ce1; 
+    color: #fff; 
+    border-radius: 3px;
+    
+  }
+  
+  .button2:hover {
+    background-color: #de24ba;
+    color: white;
+  }
+  .btn_nav a{
+    display: inline-block;
+    color: #fff;
+}
+  
+ /* header part end */
+  /* banner part start */
+  .banner{
+    background-color: #150035;
+    height: 300px;
+    position: absolute;
+    z-index: -1;
+
+ }
+ .banner_text h1{
+    padding-top: 120px;
+    font-size: 48px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    color: #fcb100;
+    margin-left: 50px;
+    text-align: center;
+
+ }
+ .banner_text  h4{
+    padding-top: 10px;
+    font-size: 24px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 50px;
+    text-align: center;}
+
+
+ /* banner part end */
+  /* register part start */
+  .register{
+    position: relative;
+    z-index: 4;
+   
+ }
+ .register_text{
+   
+    width: 30%;
+    float: left;
+    background-color: #6418d1;
+    border-right: 1px solid black;
+    margin-top: 250px;
+    position: relative;
+    z-index: 1;
+    
+}
+.register_text h2{
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    color: #fcb100; 
+    text-align: center;
+    padding: 20px 0;
+}
+.register_text h1{
+    font-size: 32px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    color: #fff; 
+    text-align: center;
+    padding: 20px 0;
+}
+.register_text p{
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    letter-spacing: -1px;
+    
+    
+}
+.register_text1{
+    width: 30%;
+    float: left;
+    background-color: #6418d1;
+    border-right: 1px solid black;
+    position: relative;
+    z-index: 1;
+    top: 250px;
+}
+.register_text1 h2{
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    color: #fcb100; 
+    text-align: center;
+    padding: 20px 0;
+}
+.register_text1 h1{
+    font-size: 32px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    color: #fff; 
+    text-align: center;
+    padding: 20px 0;
+}
+.register_text1 p{
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    letter-spacing: -1px;
+    
+    
+}
+.register_text2{
+    width: 30%;
+    float: left;
+    background-color: #6418d1;
+    border-right: 1px solid black;
+    top: 250px;
+    position: relative;
+    z-index: 1;
+}
+.register_text2 h2{
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    color: #fcb100; 
+    text-align: center;
+    padding: 20px 0;
+}
+.register_text2 h1{
+    font-size: 32px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    color: #fff; 
+    text-align: center;
+    padding: 20px 0;
+}
+.register_text2 p{
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    letter-spacing: -1px;
+    
+    
+}
+/* register part end */
+/* games part start */
+.games{
+    position: absolute;
+    z-index: -4;
+    background-image: url(../img/05_Contact_us.png1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 400px;
+    height: 500px;
+    padding-bottom: 100px;
+
+}
+.games_text1{
+    width: 30%;
+    float: left;
+
+}
+.gticon{
+    width: 10%;
+    float: left;
+    margin-top: 270px;
+
+}
+.gttext{
+    width: 12%;
+    float: left;
+
+}
+.gttext h6{
+    font-size: 24px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 270px;
+    padding-left: 50px;
+   
+
+}
+.gttext p{
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 5px;
+    padding-left: 50px;
+    letter-spacing: -1px;
+}
+.games_text2{
+    width: 30%;
+    float: left;
+    padding-left: 20px;
+
+}
+.games_text3{
+    width: 30%;
+    float: left;
+    padding-left: 20px;
+
+}
+
+
+
+
+/* games part end */
+ /* footer part 1 :start  */
+ .offer{
+    background-color: #8335e8;
+    height: 150px;
+    margin-top: 300px;
+
+ }
+ .offer_part{
+    width: 45%;
+    float: left;
+    margin-left: 30px;
+
+ }
+  .offer_part h4{
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+    font-size: 32px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+
+  }
+  .payment{
+    width: 45%;
+    float: left;
+    margin-left: 30px;
+
+ }
+ .payment h4{
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+    font-size: 32px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+
+  }
+  .payment li{
+      color: #fff;
+      padding: 0px 10px;
+  }
+
+/* footer part 1 end */
+.end{
+    background-color: #0b001b;
+    height: 400px;
+
+
+}
+.jackpot{
+    width: 25%;
+    float: left;
+
+}
+.jackpot h4{
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+    font-size: 32px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+
+  }
+  .jackpot  p{
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    border-bottom: 1px solid black;
+    color: #fff;
+    padding-bottom:  20px;
+    letter-spacing: -1px;
+  }
+.linksite{
+    width: 25%;
+    float: left;
+
+}
+.linksite h4{
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+    text-align: left;
+    font-size: 32px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+
+  }
+
+.linksite  pre{
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom:  20px;
+    letter-spacing: -1px;
+    height: 200px;
+  }
+.inf{
+    width: 50%;
+    float: left;
+
+}
+.inf h4{
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    text-align: left;
+    font-size: 32px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+}
+
+
+.inf pre{
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom:  20px;
+    letter-spacing: -1px;
+    
+    
+
+}
+.inf img{
+    top: 10px;
+}
